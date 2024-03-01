@@ -138,6 +138,66 @@ function Services() {
                           </div>
                         </div>
                         <div className="testing-auto">
+                          {activeTab === 1 && (
+                            <>
+                              <img src={TestingIcon} alt="" />
+                              <h4>
+                              DevSecOps
+                              </h4>
+                              <img src={TestingAuto} alt="" />
+                            </>
+                          )}
+                          {/* Add sections for other tabs here */}
+                          {activeTab === 2 && (
+                            <>
+                              <img src={TestingIcon} alt="" />
+                              <h4>
+                              Environment <br /> as a service
+                              </h4>
+                              <img src={TestingAuto} alt="" />
+                            </>
+                          )}
+                          {/* Add sections for other tabs here */}
+                          {activeTab === 3 && (
+                            <>
+                              <img src={TestingIcon} alt="" />
+                              <h4>
+                                Incident <br /> Management
+                              </h4>
+                              <img src={TestingAuto} alt="" />
+                            </>
+                          )}
+                          {/* Add sections for other tabs here */}
+                          {activeTab === 4 && (
+                            <>
+                              <img src={TestingIcon} alt="" />
+                              <h4>
+                                Message <br /> Brokers
+                              </h4>
+                              <img src={TestingAuto} alt="" />
+                            </>
+                          )}
+                          {/* Add sections for other tabs here */}
+                          {activeTab === 5 && (
+                            <>
+                              <img src={TestingIcon} alt="" />
+                              <h4>
+                              Microservices <br /> Design
+                              </h4>
+                              <img src={TestingAuto} alt="" />
+                            </>
+                          )}
+                          {/* Add sections for other tabs here */}
+                          {activeTab === 6 && (
+                            <>
+                              <img src={TestingIcon} alt="" />
+                              <h4>
+                                Data Analytics <br /> Integration
+                              </h4>
+                              <img src={TestingAuto} alt="" />
+                            </>
+                          )}
+                          {/* Add sections for other tabs here */}
                           {activeTab === 7 && (
                             <>
                               <img src={TestingIcon} alt="" />
@@ -293,8 +353,8 @@ function Services() {
                         </div>
                         <div className="col-md-6">
                           <div className="story-card" data-aos="fade-right">
-                            <h5>Microservices Migration</h5>
-                            <div className="card-center my-4 position-relative">
+                            <h5>Critical Web Launch</h5>
+                            <div className="card-center-2 my-4 position-relative">
                               <p className="text-white card-top">
                                 Customer Story
                               </p>
@@ -304,8 +364,7 @@ function Services() {
                               {/* <img src={StoryImgOne} alt="" /> */}
                               <div className="card-bottom">
                                 <small className="text-white">
-                                  Accelerated Migration of Custom Microservices
-                                  to AWS Lambda
+                                Migrating from C++ to Java for a Time-Critical Web Launch
                                 </small>
                                 <button className="text-white my-2">
                                   Read Story{" "}

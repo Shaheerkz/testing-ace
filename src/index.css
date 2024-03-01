@@ -491,7 +491,7 @@ button.btn.btn-outline-success:hover {
   color: #fff;
   text-align: center;
 }
-.card-center{
+.card-center, .card-center-2{
   background-image: url(../src/assets/images/story-1.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -500,6 +500,9 @@ button.btn.btn-outline-success:hover {
   display: flex;
   justify-content: center;
   flex-direction: column;
+}
+.card-center-2{
+  background-image: url(../src/assets/images/tech-card-bg.png);
 }
 .pad-center{
   padding: 200px 0;
