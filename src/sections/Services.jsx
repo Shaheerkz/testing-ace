@@ -13,14 +13,19 @@ import TestingIcon from "../assets/images/testing-icon.png";
 import MessageIcon from "../assets/images/message-icon.png";
 import Devops2 from "../assets/images/devops-2.png";
 import DevMachine from "../assets/images/dev-machine.png";
+import Ser2 from "../assets/images/ser-2.png";
+import Ser3 from "../assets/images/ser-3.png";
+import Ser4 from "../assets/images/ser-4.svg";
+import Ser5 from "../assets/images/ser-5.png";
+import Ser6 from "../assets/images/ser-6.png";
 import PortalImg from "../assets/images/portal.png";
 import StoryImgOne from "../assets/images/story-1.png";
 import Aws from "../assets/images/aws.png";
 import Rabbit from "../assets/images/rabbit.png";
 import Vmware from "../assets/images/vmware.png";
 import GradientButton from "../components/GradientButton";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 function Services() {
   const [activeTab, setActiveTab] = useState(7);
@@ -66,12 +71,13 @@ function Services() {
                         </div>
                       </div>
                     </div>
-                    <div className="col-xxl-7 col-12 mb-5 wrp" data-aos="fade-left">
+                    <div
+                      className="col-xxl-7 col-12 mb-5 wrp"
+                      data-aos="fade-left"
+                    >
                       <div className="featured-left">
                         <div className="featured-service">
-                          <div
-                            className="top-service"
-                          >
+                          <div className="top-service">
                             <img src={SettingImg} alt="" />
                             <h3>Featured Services</h3>
                           </div>
@@ -143,9 +149,7 @@ function Services() {
                           {activeTab === 1 && (
                             <>
                               <img src={TestingIcon} alt="" />
-                              <h4>
-                              DevSecOps
-                              </h4>
+                              <h4>DevSecOps</h4>
                               <img src={TestingAuto} alt="" />
                             </>
                           )}
@@ -154,7 +158,7 @@ function Services() {
                             <>
                               <img src={TestingIcon} alt="" />
                               <h4>
-                              Environment <br /> as a service
+                                Environment <br /> as a service
                               </h4>
                               <img src={TestingAuto} alt="" />
                             </>
@@ -184,7 +188,7 @@ function Services() {
                             <>
                               <img src={TestingIcon} alt="" />
                               <h4>
-                              Microservices <br /> Design
+                                Microservices <br /> Design
                               </h4>
                               <img src={TestingAuto} alt="" />
                             </>
@@ -230,66 +234,63 @@ function Services() {
                     </div>
                     <div className="col-lg-4 col-md-6 my-3">
                       <div className="services-card" data-aos="fade-down">
-                        <img src={MessageIcon} className="my-2" alt="" />
-                        <h5>Message Brokers</h5>
+                        <img src={Ser2} className="my-2" alt="" />
+                        <h5>Data Analytics Integration </h5>
                         <small className="text-white">
-                          Your trusted partner for seamless integration of
-                          message brokers. With troubleshooting expertise,
-                          consulting and assessment services, and comprehensive
-                          support, we optimize performance and ensure smooth
-                          operations for your technology stack.
+                          Differentiating through our unique integration
+                          approach. Seamlessly integrate e-commerce data with
+                          Databricks/Snowflake. Design consulting, cost
+                          optimization, and fault tolerance ensure efficient,
+                          uninterrupted access to critical data.
                         </small>
                       </div>
                     </div>
                     <div className="col-lg-4 col-md-6 my-3">
                       <div className="services-card" data-aos="fade-down">
-                        <img src={MessageIcon} className="my-2" alt="" />
-                        <h5>Message Brokers</h5>
+                        <img src={Ser3} className="my-2" alt="" />
+                        <h5>Automated Testing</h5>
                         <small className="text-white">
-                          Your trusted partner for seamless integration of
-                          message brokers. With troubleshooting expertise,
-                          consulting and assessment services, and comprehensive
-                          support, we optimize performance and ensure smooth
-                          operations for your technology stack.
+                          Experience the efficiency of automated testing for
+                          your e-commerce application. Our unique approach
+                          includes AI-enhanced test code, seamless CI/CD
+                          integration, and crowd-sourced test case development
+                          to save time and resources. 
                         </small>
                       </div>
                     </div>
                     <div className="col-lg-4 col-md-6 my-3">
                       <div className="services-card" data-aos="fade-down">
-                        <img src={MessageIcon} className="my-2" alt="" />
-                        <h5>Message Brokers</h5>
+                        <img src={Ser4} className="my-2" alt="" />
+                        <h5>Onboarding as a Service</h5>
                         <small className="text-white">
-                          Your trusted partner for seamless integration of
-                          message brokers. With troubleshooting expertise,
-                          consulting and assessment services, and comprehensive
-                          support, we optimize performance and ensure smooth
-                          operations for your technology stack.
+                          Accelerate software delivery with our streamlined
+                          CI/CD solution, including automated onboarding and
+                          customizable off-boarding for efficient development
+                          cycles. Spin up entire environments in hours not days.
                         </small>
                       </div>
                     </div>
                     <div className="col-lg-4 col-md-6 my-3">
                       <div className="services-card" data-aos="fade-down">
-                        <img src={MessageIcon} className="my-2" alt="" />
-                        <h5>Message Brokers</h5>
+                        <img src={Ser5} className="my-2" alt="" />
+                        <h5>Incident Management</h5>
                         <small className="text-white">
-                          Your trusted partner for seamless integration of
-                          message brokers. With troubleshooting expertise,
-                          consulting and assessment services, and comprehensive
-                          support, we optimize performance and ensure smooth
-                          operations for your technology stack.
+                          Top-notch full-stack incident management services that
+                          prioritize preparation, documentation, and proactive
+                          measures to minimize downtime and avoid loss of
+                          revenue.
                         </small>
                       </div>
                     </div>
                     <div className="col-lg-4 col-md-6 my-3">
                       <div className="services-card" data-aos="fade-down">
-                        <img src={MessageIcon} className="my-2" alt="" />
-                        <h5>Message Brokers</h5>
+                        <img src={Ser6} className="my-2" alt="" />
+                        <h5>Microservices Design, Development & Refactoring</h5>
                         <small className="text-white">
-                          Your trusted partner for seamless integration of
-                          message brokers. With troubleshooting expertise,
-                          consulting and assessment services, and comprehensive
-                          support, we optimize performance and ensure smooth
-                          operations for your technology stack.
+                          AceMQ offers comprehensive microservices design,
+                          development, and refactoring services that strictly
+                          adhere to industry best practices, including loose
+                          coupling and the 12Factor approach.
                         </small>
                       </div>
                     </div>
@@ -337,9 +338,7 @@ function Services() {
                               <p className="text-white card-top">
                                 Customer Story
                               </p>
-                              <div className="pad-center">
-
-                              </div>
+                              <div className="pad-center"></div>
                               {/* <img src={StoryImgOne} alt="" /> */}
                               <div className="card-bottom">
                                 <small className="text-white">
@@ -347,7 +346,8 @@ function Services() {
                                   to AWS Lambda
                                 </small>
                                 <button className="story-read-btn text-white my-2">
-                                  Read Story <FontAwesomeIcon icon={faArrowRight}/>
+                                  Read Story{" "}
+                                  <FontAwesomeIcon icon={faArrowRight} />
                                 </button>
                               </div>
                             </div>
@@ -360,22 +360,21 @@ function Services() {
                               <p className="text-white card-top">
                                 Customer Story
                               </p>
-                              <div className="pad-center">
-
-                              </div>
+                              <div className="pad-center"></div>
                               {/* <img src={StoryImgOne} alt="" /> */}
                               <div className="card-bottom">
                                 <small className="text-white">
-                                Migrating from C++ to Java for a Time-Critical Web Launch
+                                  Migrating from C++ to Java for a Time-Critical
+                                  Web Launch
                                 </small>
                                 <button className="story-read-btn text-white my-2">
-                                  Read Story <FontAwesomeIcon icon={faArrowRight} />
+                                  Read Story{" "}
+                                  <FontAwesomeIcon icon={faArrowRight} />
                                 </button>
                               </div>
                             </div>
                           </div>
                         </div>
-                        
                       </div>
                     </div>
                   </div>
@@ -405,7 +404,7 @@ function Services() {
                   <div className="row mt-5 wrp">
                     <div className="col-12">
                       <div className="bd-managment">
-                        <div className="managment-right position-relative">
+                        <div className="managment-right mx-auto position-relative">
                           <img src={PortalImg} className="img-fluid" alt="" />
                         </div>
                         <div className="managment-left">

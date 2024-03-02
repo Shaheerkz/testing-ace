@@ -1,5 +1,7 @@
 import React from "react";
 import appIcon1 from "../assets/images/app-card-icon.png";
+import appIcon2 from "../assets/images/boldly.png";
+import appIcon3 from "../assets/images/delivery.png";
 function Approach() {
   return (
     <>
@@ -27,7 +29,11 @@ function Approach() {
                     <div className="col-md-4" data-aos="fade-right">
                       <div className="app-card">
                         <div className="app-card-child text-center justify-content-center d-flex flex-column align-items-center">
-                          <img src={appIcon1} className="card-icon mb-3" alt="" />
+                          <img
+                            src={appIcon1}
+                            className="card-icon mb-3"
+                            alt=""
+                          />
                           <p>
                             {" "}
                             <span className="b-span-three">Listen</span>
@@ -45,17 +51,21 @@ function Approach() {
                     <div className="col-md-4" data-aos="fade-down">
                       <div className="app-card-2">
                         <div className="app-card-child text-center justify-content-center d-flex flex-column align-items-center">
-                          <img src={appIcon1} className="card-icon mb-3" alt="" />
+                          <img
+                            src={appIcon2}
+                            className="card-icon mb-3"
+                            alt=""
+                          />
                           <p>
                             {" "}
-                            <span className="b-span-three">Listen</span>
-                            <span className="b-span-three"> Intently</span>
+                            <span className="b-span-one change-opac">Think </span>
+                            <span className="b-span-one"> Boldly</span>
                           </p>
                           <small className="text-white text-center my-3">
-                            We believe listening is more <br /> than just
-                            hearing what's being said. <br /> It is the intent
-                            and need beyond words <br /> and understanding the
-                            desire
+                            We believe in our people and encourage <br /> them
+                            to boldly attack challenges, drive <br /> outcomes,
+                            and push innovation, so that
+                            <br /> every engagement exceeds expectations.
                           </small>
                         </div>
                       </div>
@@ -63,17 +73,20 @@ function Approach() {
                     <div className="col-md-4" data-aos="fade-left">
                       <div className="app-card-3">
                         <div className="app-card-child text-center justify-content-center d-flex flex-column align-items-center">
-                          <img src={appIcon1} className="card-icon mb-3" alt="" />
+                          <img
+                            src={appIcon3}
+                            className="card-icon mb-3"
+                            alt=""
+                          />
                           <p>
                             {" "}
-                            <span className="b-span-three">Listen</span>
-                            <span className="b-span-three"> Intently</span>
+                            <span className="b-span-three change-opac">Deliver </span>
+                            <span className="b-span-three"> Excellently</span>
                           </p>
                           <small className="text-white text-center my-3">
-                            We believe listening is more <br /> than just
-                            hearing what's being said. <br /> It is the intent
-                            and need beyond words <br /> and understanding the
-                            desire
+                            We believe in being excellent in <br /> all we do, from how
+                            we speak, to how <br /> we deliver. If we cannot deliver
+                            excellently <br /> then we are not delivering at all.
                           </small>
                         </div>
                       </div>

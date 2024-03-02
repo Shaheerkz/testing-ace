@@ -24,8 +24,8 @@ function Footer() {
               </div>
             </div>
           </div>
-          <div className="col-lg-2 col-md-6 col-sm-12">
-            <div className="quick-links">
+          <div className="col-lg-2 col-md-12 col-sm-12 mt-md-5 mt-sm-5">
+            <div className="quick-links text-lg-start">
               <h5>Navigate</h5>
               <div className="links">
                 <a href="#">Home</a>
@@ -36,14 +36,14 @@ function Footer() {
               </div>
             </div>
           </div>
-          <div className="col-lg-4 col-md-6 col-sm-12">
+          <div className="col-lg-4 col-md-12 col-sm-12 mt-md-5">
             <div className="news-letter">
               <h5>Newsletter</h5>
               <PrimaryInput type='text' placeholder='Enter Your Email'/>
               <GradientButton text='Submit'/>
             </div>
           </div>
-          <div className="col-lg-3 col-md-6 col-sm-12">
+          <div className="col-lg-3 col-md-12 col-sm-12 mt-md-5">
             <div className="news-letter">
               <h5>Connect With Us</h5>
               <div className="footer-social">
