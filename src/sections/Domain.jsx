@@ -217,12 +217,8 @@ function Domain() {
                     <div className="domain-bottom">
                       <p>
                         Ace8 is not just a technology services company; we are
-                        your strategic partner in navigating the ever-evolving
-                        landscape of technology. Elevate your business to new
-                        heights with Ace8 - Where innovation meets excellence!
-                        Ace8 is not just a technology services company; we are
-                        your strategic partner in navigating the ever-evolving
-                        landscape of technology. Elevate your business to new
+                        your strategic partner in navigating the ever-evolving&nbsp;
+                         <span className="b-span-three">landscape of technology.</span> Elevate your business to new
                         heights with Ace8 - Where innovation meets excellence!
                       </p>
                     </div>

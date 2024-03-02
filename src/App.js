@@ -6,6 +6,7 @@ import Approach from './sections/Approach';
 import Buisness from './sections/Buisness';
 import Contact from './sections/Contact';
 import Domain from './sections/Domain';
+import Formula from './sections/Formula';
 import GlobalBrands from './sections/GlobalBrands';
 import Hero from './sections/Hero';
 import Mission from './sections/Mission';
@@ -20,6 +21,7 @@ function App() {
       <Buisness />
       <Domain />
       <Services />
+      <Formula />
       <Mission />
       <Approach />
       <Contact />

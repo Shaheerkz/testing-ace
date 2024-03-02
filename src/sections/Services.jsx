@@ -19,6 +19,8 @@ import Aws from "../assets/images/aws.png";
 import Rabbit from "../assets/images/rabbit.png";
 import Vmware from "../assets/images/vmware.png";
 import GradientButton from "../components/GradientButton";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 
 function Services() {
   const [activeTab, setActiveTab] = useState(7);
@@ -344,8 +346,8 @@ function Services() {
                                   Accelerated Migration of Custom Microservices
                                   to AWS Lambda
                                 </small>
-                                <button className="text-white my-2">
-                                  Read Story{" "}
+                                <button className="story-read-btn text-white my-2">
+                                  Read Story <FontAwesomeIcon icon={faArrowRight}/>
                                 </button>
                               </div>
                             </div>
@@ -366,8 +368,8 @@ function Services() {
                                 <small className="text-white">
                                 Migrating from C++ to Java for a Time-Critical Web Launch
                                 </small>
-                                <button className="text-white my-2">
-                                  Read Story{" "}
+                                <button className="story-read-btn text-white my-2">
+                                  Read Story <FontAwesomeIcon icon={faArrowRight} />
                                 </button>
                               </div>
                             </div>
